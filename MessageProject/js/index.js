@@ -13,8 +13,11 @@ function displayMessage() {
     if (msg === "") {
         para.innerText = "Input field is empty!";
         para.classList.add("show");
+        setTimeout(() => {
+            para.innerText = "";
+            para.classList.remove("show");
+        }, 2000);
     } else {
-        para.classList.remove("show");
         para.innerText = msg;
         inputMsg.value = "";
     }
@@ -26,8 +29,11 @@ document.addEventListener("keydown", (event) => {
         if (msg === "") {
             para.addClass("show");
             para.innerText = "Input field is empty!";
+            setTimeout(() => {
+                para.innerText = "";
+                para.classList.remove("show");
+            }, 2000);
         } else {
-            para.classList.remove("show");
             para.innerText = msg;
             inputMsg.value = "";
         }

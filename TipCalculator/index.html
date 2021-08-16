@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>TIP CALCULATOR</h1>
+        <p class="paraStyle">How Much Was Your Bill?</p>
+        <p id="dollarIcon" class="icons">$</p>
+        <input type="number" min="0" step="0.01" class="inputStyle" id="cost">
+        <p class="paraStyle">How Many People Sharing The Bill?</p>
+        <img class="icons" src="https://img.icons8.com/ios-glyphs/30/ffffff/user-male--v1.png"/>
+        <input type="number" min="0" class="inputStyle" id="people">
+        <p class="paraStyle">How Was Your Service?</p>
+        <select name="service" id="serviceSelect">
+            <option value="">--Please choose an option--</option>
+            <option value="great">Great - 20%</option>
+            <option value="good">Good - 10%</option>
+            <option value="bad">Bad - 2%</option>
+        </select>
+        <div id="calculate">
+            <button type="button" id="calculate">Calculate</button>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src=js/index.js> </script> </body> </html>

@@ -1,0 +1,93 @@
+body {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7c7ac;
+}
+
+.container {
+    position: relative;
+    width: 40vw;
+    /* height: 58vh; */
+    background-color: white;
+    /* padding:0 20px 20px 20px; */
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: #2e519e;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+}
+
+.paraStyle {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 25px 5px 25px;
+}
+
+.inputStyle {
+    margin-left: 60px;
+    width: 530px;
+    height: 40px;
+    font-size: 20px;
+}
+
+input {
+    /* background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
+    padding-left:30px; */
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+select {
+    padding: 1px 2px;
+    width: 561px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 29px;
+}
+
+button {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 0px 20px 29px;
+    width: 561px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    background-color: #2e519e;
+    border: 0;
+    border-radius: 8px;
+}
+
+.icons {
+    position: absolute;
+    background-color: #2e519e;
+    color: white;
+    width: 32px;
+    height: 40px;
+    left: 29px;
+    border-radius: 3px 0 0 3px;
+    /* border-style: inset; */
+}
+
+#dollarIcon {
+    text-align: center;
+    font-size: 23px;
+    top: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#message{
+    text-align: center;
+    font-size:18px;
+    color:#2e519e;
+    font-weight: bold;
+}
